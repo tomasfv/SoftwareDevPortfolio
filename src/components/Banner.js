@@ -59,7 +59,7 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Tomás:`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer.", "Game Developer.", "Technology Lover." ]'><span className="wrap">{text}</span></span></h1>
                   <p>Full Stack and Game Developer with experience in C#, Unity, Wwise, Javascript, React, React Native, HTML, CSS, Node.js, Sequelize, and PostgreSQL, among other technologies.</p>
                   {/* <button><a download href="/TomásFernándezValdés_SoftwareDev_ENG.pdf">Download CV <ArrowRightCircle size={25} /></a></button> */}
-                  <a download href="/public/TomásFernándezValdés_SoftwareDev_ENG.pdf">
+                  <a download="../assets/pdf/TomásFernándezValdés_SoftwareDev_ENG.pdf" href="../assets/pdf/TomásFernándezValdés_SoftwareDev_ENG.pdf">
                     <button>Download CV</button>
                   </a>
               </div>}
