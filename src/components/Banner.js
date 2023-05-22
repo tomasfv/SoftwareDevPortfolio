@@ -58,10 +58,8 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Tomás:`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer.", "Game Developer.", "Technology Lover." ]'><span className="wrap">{text}</span></span></h1>
                   <p>Full Stack and Game Developer with experience in C#, Unity, Wwise, Javascript, React, React Native, HTML, CSS, Node.js, Sequelize, and PostgreSQL, among other technologies.</p>
-                  {/* <button><a download href="/TomásFernándezValdés_SoftwareDev_ENG.pdf">Download CV <ArrowRightCircle size={25} /></a></button> */}
-                  <a href="https://github.com/tomasfv/SoftwareDevPortfolio/blob/main/src/assets/pdf/Tom%C3%A1sFern%C3%A1ndezVald%C3%A9s_SoftwareDev_ENG.pdf" target="_blank">
-                    <button>Download CV</button>
-                  </a>
+                  <button><a href="https://github.com/tomasfv/SoftwareDevPortfolio/blob/main/src/assets/pdf/Tom%C3%A1sFern%C3%A1ndezVald%C3%A9s_SoftwareDev_ENG.pdf" target="_blank">Download CV <ArrowRightCircle size={25} /></a></button>
+                  
               </div>}
             </TrackVisibility>
           </Col>
