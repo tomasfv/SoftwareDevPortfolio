@@ -162,7 +162,8 @@ export const Projects = () => {
                       <Nav.Link eventKey="third">Web Developer</Nav.Link>
                     </Nav.Item>
                   </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  {/* <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}> */}
+                  <Tab.Content id="slideInUp" className={""}>
                     
                     <Tab.Pane eventKey="first">
                     <p>Unity and C# projects and prototypes developed.</p>
