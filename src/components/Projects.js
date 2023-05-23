@@ -140,13 +140,14 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              // <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <div className={""}>
                 <h2>Projects</h2>
                 <p>Some projects I have worked on as a Unity developer, web developer, music composer and sound designer for video games.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">

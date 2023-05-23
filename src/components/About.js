@@ -6,6 +6,7 @@ import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
+import profile from "../assets/img/MyPhoto.jpeg"
 
 export const About = () => {
   const responsive = {
@@ -29,12 +30,13 @@ export const About = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="skill" id="about">
         <div className="container">
             <div className="">
                 <div className="">
                     <div className="skill-bx wow zoomIn">
-                        <h2>About</h2> 
+                        <h2>About</h2>
+                        <img src={profile} alt="profile" className="about-img" />
                         <div className="about">
                             <p>From Music Composer to Software Developer... since I was a child I have always been fascinated by technology and interactive experiences, but it was when I got into the video game industry that I discovered programming and set out to learn how to code.</p>
                             <p>My beginnings in video game development were as a Sound Designer and Music Composer, using technologies such as Wwise, Cubase, izotope, Unity, and C#, among other useful tools for the creation and implementation of audio assets and dynamic music within video games. At this stage, I composed music and designed sounds for more than 5 video games, some in Game Jam events and others developed with teams independently. Undoubtedly, these experiences were my biggest motivation to understand that this world is the one I am most passionate about and that the path I want to follow will always be linked to technology in one way or another.</p>

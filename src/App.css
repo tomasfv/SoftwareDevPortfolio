@@ -487,7 +487,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /*About*/
 
-
+.about-img {
+  width: 250px;
+  border-radius: 25px;
+  filter:brightness(90%);
+  
+  margin-bottom: 20px;
+}
 
 /************ Projects Css ************/
 .contact {
