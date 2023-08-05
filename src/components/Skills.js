@@ -50,8 +50,12 @@ export const Skills = () => {
                                 <h5>Audiokinetic Wwise</h5>
                             </div>
                             <div className="item">
-                                <img src={"https://www.computerhope.com/jargon/c/cubase.png"} alt="Image" />
-                                <h5>Cubase</h5>
+                                <img src={"https://cdn.icon-icons.com/icons2/2429/PNG/512/github_logo_icon_147285.png"} alt="Image" />
+                                <h5>Github</h5>
+                            </div>
+                            <div className="item">
+                                <img src={"https://seeklogo.com/images/P/plastic-scm-logo-9FC5E5DAB9-seeklogo.com.png"} alt="Image" />
+                                <h5>Plastic SCM</h5>
                             </div>
                             <div className="item">
                                 <img src={"https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"} alt="Image" />
