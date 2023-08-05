@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import mazeBall from "../assets/img/MazeBallChallenge.jpg";
 import johnLemon from "../assets/img/JohnLemon.jpg";
+import ZombieShooter from "../assets/img/ZombieShooter.jpg";
 import humanDefender from "../assets/img/humanDefender.jpg";
 import doozy from "../assets/img/DoozysWorld.jpg";
 import tanks from "../assets/img/Tanks1.jpg";
@@ -9,7 +10,6 @@ import aIJam from "../assets/img/PrisonGame.png";
 import labscape from "../assets/img/LabscapeMenu.jpg";
 import Azimuth from "../assets/img/Azimuth.jpg";
 import sobrevivenciaBack from "../assets/img/sobrevivenciaBack.png";
-import videoGames from "../assets/img/VideoGames.jpg";
 import watch from "../assets/img/TSStopWatch.jpg";
 import travel from "../assets/img/travelWeb.jpg";
 import kustom from "../assets/img/KustomsSports.jpg";
@@ -25,6 +25,12 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projectsOne = [
+    {
+      title: "Zombie Shooter",
+      description: "2D-Top Down-Shooter",
+      imgUrl: ZombieShooter,
+      link: "https://tomasfv.itch.io/zombie-shooter",
+    },
     {
       title: "John Lemon",
       description: "Stealth",
@@ -54,13 +60,7 @@ export const Projects = () => {
       description: "Puzzle",
       imgUrl: mazeBall,
       link: "https://tomasfv.itch.io/maze-ball-challenge",
-    },
-    {
-      title: "New Games Coming Soon",
-      description: "Games Development",
-      imgUrl: videoGames,
-      link: "https://tomasfv.itch.io/",
-    },
+    }
   ];
   const projectsTwo = [
     {
