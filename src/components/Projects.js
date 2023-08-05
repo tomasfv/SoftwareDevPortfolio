@@ -27,7 +27,7 @@ export const Projects = () => {
   const projectsOne = [
     {
       title: "Zombie Shooter",
-      description: "2D-Top Down-Shooter",
+      description: "2D Top Down Shooter",
       imgUrl: ZombieShooter,
       link: "https://tomasfv.itch.io/zombie-shooter",
     },
@@ -145,8 +145,9 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
             <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              {
+              ({ isVisible }) =>
+              <div className={isVisible ? "": ""}>
               
                 <h2>Projects</h2>
                 <p>Some projects I have worked on as a Unity developer, web developer, music composer and sound designer for video games.</p>
@@ -162,7 +163,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="third">Web Developer</Nav.Link>
                     </Nav.Item>
                   </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  <Tab.Content id="slideInUp" className={isVisible ? "" : ""}>
                     
                     <Tab.Pane eventKey="first">
                     <p>Unity and C# projects and prototypes developed.</p>
