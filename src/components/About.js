@@ -45,7 +45,7 @@ export const About = () => {
                             <p>I am currently working as a software developer at the company <a href="https://getback.tech/" target="_blank">Getback</a>, and doing a 6-month internship in the great studio <a href="https://www.landellgames.com/" target="_blank">Landell Games</a>, while I create my own video games and continue training in Unity and C# in my spare time; two technologies that I find fascinating for the development of interactive experiences and games.</p>
                             <p>I describe myself as passionate about technology, proactive, with a great capacity for learning, infinite curiosity, and strong teamwork skills.</p>
                             <p>Thank you for taking the time to review my profile.</p>
-                            <button><a href="https://drive.google.com/file/d/1q_RRHJKE--kv2MkcnoW4SpYJJfIIxgCG/view?usp=sharing" target="_blank">Download CV <ArrowRightCircle size={25} /></a></button>
+                            <button><a href="https://drive.google.com/file/d/1tWvKdpzFiy0EnPkccE0S5sttIHNRlIlv/view?usp=sharing" target="_blank">Download CV <ArrowRightCircle size={25} /></a></button>
 
                         </div>
                     </div>
