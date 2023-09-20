@@ -5,7 +5,6 @@ import johnLemon from "../assets/img/JohnLemon.jpg";
 import ZombieShooter from "../assets/img/ZombieShooter.jpg";
 import humanDefender from "../assets/img/humanDefender.jpg";
 import doozy from "../assets/img/DoozysWorld.jpg";
-import tanks from "../assets/img/Tanks1.jpg";
 import aIJam from "../assets/img/PrisonGame.png";
 import labscape from "../assets/img/LabscapeMenu.jpg";
 import Azimuth from "../assets/img/Azimuth.jpg";
@@ -19,6 +18,7 @@ import pokemon from "../assets/img/Pokemon.jpg";
 import toDo from "../assets/img/ToDoApp.jpg";
 import bookOfSoulz from "../assets/img/BookOfSoulz.webp";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import balloon from "../assets/img/Balloon.jpg"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -32,29 +32,31 @@ export const Projects = () => {
       link: "https://tomasfv.itch.io/zombie-shooter",
     },
     {
+      title: "Balloon Journey",
+      description: "Mobile, Casual",
+      imgUrl: balloon,
+      link: "https://tomasfv.itch.io/balloon-journey",
+    },
+    {
+      title: "Survival Nightmare",
+      description: "Survival",
+      imgUrl: survival,
+      link: "https://tomasfv.itch.io/survival-shooter",
+    },
+    {
       title: "John Lemon",
       description: "Stealth",
       imgUrl: johnLemon,
       link: "https://tomasfv.itch.io/john-lemon",
     },
-    {
-      title: "Survival Nightmare",
-      description: "Survival Shooter",
-      imgUrl: survival,
-      link: "https://tomasfv.itch.io/survival-shooter",
-    },
+    
     {
       title: "Doozy's World",
       description: "Platformer 3D",
       imgUrl: doozy,
       link:"https://tomasfv.itch.io/doozys-world" ,
     },
-    {
-      title: "Tanks Prototype",
-      description: "Puzzle",
-      imgUrl: tanks,
-      link: "https://tomasfv.itch.io/tanks-prototype",
-    },
+    
     {
       title: "Maze&Ball Challenge",
       description: "Puzzle",
